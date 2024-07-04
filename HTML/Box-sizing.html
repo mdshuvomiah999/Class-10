@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box-sizing</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box1 {
+        height: 300px;
+        width: 400px;
+        background-color: crimson;
+        /* padding: 20px; */
+        border: 10px solid darkcyan;
+        /* box-sizing: border-box; */
+        padding: 20px;
+        /* box-sizing: content-box; */
+      }
+      .box2 {
+        height: 300px;
+        width: 400px;
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem
+        doloremque autem in vitae ipsam, repellendus eveniet, sequi consectetur
+        suscipit sapiente placeat esse. Eum, earum architecto nesciunt tenetur
+        omnis veniam recusandae illo accusantium corporis aperiam ea veritatis
+        sunt. Fuga minima quis repudiandae facere libero fugit consequuntur ex?
+        Nihil, ab consequuntur!
+      </p>
+    </div>
+    <div class="box2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        maxime molestias laudantium, labore tempora iusto maiores! Maiores eaque
+        eius consectetur fugit nam, saepe dignissimos doloremque? Non optio
+        dignissimos adipisci ut, sapiente a aspernatur sequi cumque reiciendis
+        voluptatem. Quod, nihil quo. Voluptas ipsum repellendus nostrum harum
+        corrupti quod. Non, odit! Pariatur?
+      </p>
+    </div>
+  </body>
+</html>
