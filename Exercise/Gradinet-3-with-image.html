@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Imgae-gradient</title>
+    <style>
+      .container {
+        height: 700px;
+        width: 500px;
+        position: relative;
+      }
+
+      .gradient {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(
+          to left,
+          rgb(0, 132, 255),
+          rgb(0, 0, 0)
+        );
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gradient"></div>
+      <img
+      src=https://images.unsplash.com/photo-1532690505755-416f854618da?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Natural" />
+    </div>
+  </body>
+</html>

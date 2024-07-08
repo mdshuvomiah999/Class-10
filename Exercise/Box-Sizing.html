@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box-Sizing</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .box-wrapper {
+        margin: 100px auto;
+        width: 50%;
+        height: 60vh;
+        background-color: aliceblue;
+        padding: 20px;
+      }
+      .box-wrapper .box1 {
+        height: 200px;
+
+        text-align: justify;
+        background-color: crimson;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+        font-family: sans-serif;
+      }
+      .box-2 {
+        background-color: aqua;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-wrapper">
+      <div class="box1">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+          aliquam repellendus, adipisci incidunt eos harum, molestias
+          consectetur omnis iure at itaque et delectus deserunt. Cupiditate
+          obcaecati assumenda error enim saepe!
+        </p>
+      </div>
+      <div class="box-2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+          veritatis accusantium dolor ea, soluta saepe inventore nam, porro
+          harum corrupti optio aspernatur aperiam doloremque laboriosam ipsum
+          praesentium! Dolorum, pariatur ex?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

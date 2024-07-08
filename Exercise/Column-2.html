@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controlling -Content-Breaks-column</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap:ital,wght@0,100..900;1,100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind:wght@300;400;500;600;700&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        padding: 2em;
+        font-family: "Hind Modural", sans-serif;
+        color: #333;
+      }
+
+      img {
+        max-width: 100%;
+      }
+      figure {
+        margin: 0;
+      }
+      figcaption {
+        font-family: "Lora", sans-serif;
+        text-align: center;
+        font-size: 1.4em;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: 600;
+      }
+      blockquote {
+        column-span: all;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 2em;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 1.1em;
+        font-family: "Lora", sans-serif;
+        text-align: justify;
+        line-height: 1.4;
+        column-count: 3;
+        column-gap: 3.3rem;
+        column-rule: 1.5px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur fuga
+          optio, atque ullam, quos accusantium doloribus rem autem error
+          excepturi officiis odio eos quaerat, dolorem et iusto illum quasi amet
+          quia facilis qui sunt. Nam ratione iusto eum doloremque libero laborum
+          impedit. Laboriosam odio quaerat officiis voluptas error deleniti
+          perferendis possimus repudiandae iure dignissimos quam autem alias
+          debitis voluptatibus tempora quos placeat incidunt, sunt consequatur
+          ratione eaque. Fuga deserunt fugit repellendus, non doloremque enim
+          modi nisi cupiditate at aut perspiciatis! Porro expedita, perferendis
+          dicta rem incidunt nemo esse repudiandae molestiae nostrum?
+          Consequatur modi totam corporis, in suscipit hic excepturi nobis velit
+          vel, quae vero magni ad assumenda. Atque, consequuntur ut! Veritatis
+          laborum suscipit aspernatur nobis iusto inventore dolores dicta amet
+          repudiandae laudantium voluptates, consequatur architecto rem cumque
+          facere expedita perferendis assumenda, officia quaerat error optio
+          tempore? Quae, facere. Alias ab ducimus veritatis nemo praesentium
+          soluta aspernatur ullam. Doloribus doloremque facere est unde vel
+          culpa maiores nulla commodi fuga eaque. Laboriosam, explicabo nesciunt
+          culpa hic similique magni suscipit. Facere hic eum aut harum doloribus
+          voluptatum, commodi laboriosam ducimus beatae est dolorum, in eaque
+          cum maiores atque sed explicabo ipsum adipisci provident cumque? Eaque
+          sed fugit ex, voluptas laborum ipsa vitae? Quidem ratione ipsam illum,
+          ab accusantium ad consequuntur quas accusamus dolorem dolor blanditiis
+          beatae saepe necessitatibus harum nam quis itaque sed amet eligendi
+          suscipit, at iure optio quasi? Amet dolorum nulla, tempora totam rem
+          ipsam labore, repudiandae sapiente dolores maiores quas pariatur unde
+          eos ullam dicta a! Accusamus veritatis error ipsum delectus, itaque
+          quae eveniet consequuntur odio quidem, quo omnis repudiandae facere
+          consequatur earum ex harum debitis nobis culpa qui dolorem veniam
+          tempora! Illum eos minima inventore cum odit nostrum fuga consequuntur
+          id ipsam obcaecati? Nam laboriosam itaque quibusdam aperiam alias
+          nobis aspernatur, veniam distinctio porro quidem perspiciatis animi.
+          Magnam architecto officiis similique minima eius modi aspernatur
+          aliquam voluptate odio expedita hic consequuntur officia maiores
+          dolorem amet sit veniam, rem porro, facere deserunt aliquid. Nostrum
+          nemo qui cupiditate corrupti assumenda, dicta quidem mollitia, modi
+          autem velit commodi soluta. Laboriosam fugit optio quos modi itaque
+          aliquid earum. Expedita tempore dignissimos consequuntur tempora harum
+          sit dolorum, quia beatae reiciendis laudantium saepe, recusandae
+          accusamus obcaecati nobis quo nihil molestias. Quos nam voluptatum
+          officiis? Nam officiis fugit reprehenderit vel facere possimus velit
+          perspiciatis sunt! Consequuntur nostrum, rem nisi deleniti aut minima
+          assumenda nobis debitis doloremque porro amet laborum facilis, aliquid
+          vero distinctio quas accusamus velit!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          accusamus exercitationem repudiandae aperiam tempora consequatur
+          facere autem sit, molestias, sapiente magni, nam commodi eligendi.
+          Maxime nemo cum reprehenderit cumque voluptatem consequuntur ipsa id,
+          dignissimos et explicabo reiciendis odit tempore error nesciunt non ex
+          beatae veniam autem aperiam, iusto officia asperiores?
+        </p>
+        <blockquote>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            provident consequatur ratione vitae possimus voluptate odio dolorem
+            sint, eligendi magni.
+          </p>
+        </blockquote>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+          deleniti recusandae nemo id hic qui debitis earum nostrum, ipsa
+          asperiores cumque assumenda, dicta officia explicabo dolor doloribus!
+          Tempore a ad, repudiandae ut magni fugit voluptatibus, modi dolores,
+          nesciunt eum cumque. Illo est deleniti possimus sunt quidem
+          blanditiis. Optio, nesciunt quod. Reprehenderit esse odio assumenda
+          porro mollitia suscipit quas iste voluptate!
+        </p>
+      </article>
+      <aside>
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Madeena_masjid_nabavi_12122008230.jpg/432px-Madeena_masjid_nabavi_12122008230.jpg"
+            alt="Madina"
+          />
+          <figcaption>Early history and Jewish control</figcaption>
+        </figure>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum
+          deleniti hic aut asperiores distinctio doloremque temporibus,
+          praesentium cumque? Tempore, corrupti harum. Soluta magnam, expedita
+          explicabo doloremque impedit labore corrupti!
+          <a href="https://en.wikipedia.org/wiki/Medina">Madina City</a>
+        </p>
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%27Madinah_Sharif%27_Indian_token.jpg/330px-%27Madinah_Sharif%27_Indian_token.jpg"
+            alt="Nobel  City"
+          />
+          <figcaption>
+            17th century bronze token depicting prophet's Mosque, the
+            inscription below reads 'Madinah Shareef' (Noble City)
+          </figcaption>
+        </figure>
+      </aside>
+    </div>
+  </body>
+</html>
